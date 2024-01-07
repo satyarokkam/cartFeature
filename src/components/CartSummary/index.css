@@ -1,0 +1,18 @@
+.order-title {
+  color: #616e7c;
+  font-weight: bold;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  min-width: 15vw;
+  border-radius: 5px;
+  border-style: none;
+  padding: 2px;
+}
+.amount {
+  color: #171f46;
+}
+.count-items {
+  color: #616e7c;
+}
