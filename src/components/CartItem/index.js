@@ -60,7 +60,10 @@ const CartItem = props => (
                 className="remove-button"
                 type="button"
                 onClick={onRemoveCartItem}
+<<<<<<< HEAD
                 data-testid="remove"
+=======
+>>>>>>> second Commit
               >
                 Remove
               </button>
@@ -70,6 +73,10 @@ const CartItem = props => (
             className="delete-button"
             type="button"
             onClick={onRemoveCartItem}
+<<<<<<< HEAD
+=======
+            data-testid="remove"
+>>>>>>> second Commit
           >
             <AiFillCloseCircle color="#616E7C" size={20} />
           </button>

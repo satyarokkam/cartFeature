@@ -91,12 +91,17 @@ class AllProductsSection extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = Cookies.get('jwt_token')
+<<<<<<< HEAD
     const {
       activeOptionId,
       activeCategoryId,
       searchInput,
       activeRatingId,
     } = this.state
+=======
+    const {activeOptionId, activeCategoryId, searchInput, activeRatingId} =
+      this.state
+>>>>>>> second Commit
     const apiUrl = `https://apis.ccbp.in/products?sort_by=${activeOptionId}&category=${activeCategoryId}&title_search=${searchInput}&rating=${activeRatingId}`
     const options = {
       headers: {
